@@ -87,16 +87,3 @@ class SitemapFile
         }
     }
 }
-
-
-/*
- public function createFile()
- {
-    $items = DB::table('table')->where('id', '>=', 10)->get();
-    $xml = View::make('file-xml', compact('items'))->render(); 
-    $fs = new Filesystem();
-    $fs->put(public_path("file.xml"), $xml);
- }
-*/
-
-
