@@ -30,7 +30,7 @@ class SitemapIndex
         $lastmod = $lastmod ?? $this->getDefaultLastmod();
         foreach ($this->sitemapFiles as $file) {
             $xml_text .= '    <sitemap>' . "\n";
-            $xml_text .= "        <loc>https://casinonearyou.com/sitemap/$file</loc>" . "\n";
+            $xml_text .= "        <loc>https://example.com/sitemap/$file</loc>" . "\n";
             $xml_text .= "        <lastmod>$lastmod</lastmod>" . "\n";
             $xml_text .= '    </sitemap>' . "\n";
         }
